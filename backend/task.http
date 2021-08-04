@@ -4,7 +4,28 @@
 GET {{api}}/tasks
 
 ###
-GET {{api}}/tasks/5
+GET {{api}}/tasks/6
 
 ###
 GET {{api}}/tasks/count
+
+###
+POST {{api}}/tasks
+Content-Type: application/json
+
+{
+    "title": "Task 8",
+    "description": "Some Description 8"
+}
+
+###
+PUT {{api}}/tasks/6
+Content-Type: application/json
+
+{
+     "title": "Task 6",
+    "description": "Some Description 6"
+}
+
+###
+DELETE {{api}}/tasks/5

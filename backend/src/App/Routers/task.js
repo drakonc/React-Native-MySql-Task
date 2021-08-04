@@ -16,9 +16,9 @@ router.get('/tasks/:id',getTask);
 router.post('/tasks',saveTask);
 
 //TODO: Actualiza una Tarea
-router.put('/tasks',updateTask);
+router.put('/tasks/:id',updateTask);
 
 //TODO: Elimina una Tarea
-router.delete('/tasks', deleteTask);
+router.delete('/tasks/:id', deleteTask);
 
 export default router;
