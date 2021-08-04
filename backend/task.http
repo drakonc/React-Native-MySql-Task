@@ -1,0 +1,10 @@
+@api = http://localhost:3000
+
+###
+GET {{api}}/tasks
+
+###
+GET {{api}}/tasks/5
+
+###
+GET {{api}}/tasks/count
