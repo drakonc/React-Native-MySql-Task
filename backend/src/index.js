@@ -1,6 +1,7 @@
 import app from './App/app';
 
-app.listen(3000,() => {
-        console.log(`Server on Port 3000`);
+
+app.listen(app.set('port'),() => {
+        console.log(`Server on Port: ${app.get('port')}`);
     }
 )

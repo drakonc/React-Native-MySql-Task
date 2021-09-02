@@ -1,3 +1,4 @@
 node_modules
 src/App/Logs/messages.log
 dist
+.env
